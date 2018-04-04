@@ -1,0 +1,26 @@
+{
+    "type": "library",
+    "license": "propriety",
+    "name": "modernoop/pph21",
+    "authors": [{
+        "name": "Davit hermansyah",
+        "email": "davithermansyah37@gmail.com",
+        "homepage": "http://kodingphp.com"
+    }],
+    "require": {
+        "php": "^7.0"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "classmap-authoritative": true,
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "PPH21\\": "src/"
+        }
+    }
+}
